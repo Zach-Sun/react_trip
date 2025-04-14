@@ -1,0 +1,33 @@
+{
+  "name": "react-trip",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "antd": "^5.24.6",
+    "antd-mobile": "^5.39.0",
+    "axios": "^1.8.2",
+    "dayjs": "^1.11.13",
+    "less": "^4.2.2",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "react": "^18.3.1",
+    "react-activation": "^0.13.0",
+    "react-bmapgl": "^1.0.0",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.0",
+    "styled-components": "^6.1.17"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}

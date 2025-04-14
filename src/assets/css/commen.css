@@ -1,0 +1,19 @@
+.tabbarhidden {
+  height: 100vh;
+  position: relative;
+  z-index: 9;
+  overflow-y: auto;
+  background-color: #fff;
+}
+:root {
+  --myuse-color: #ff9854;
+  --van-search-left-icon-color: var(--myuse-color) !important;
+  --van-primary-color: var(--myuse-color) !important;
+  --van-overlay-background: rgb(255, 255, 255, 0) !important;
+}
+.icon_check {
+  display: inline-block;
+  width: 3.2vw;
+  height: 3.2vw;
+  background: url(../img/detail/icon_check.png) 0 0 / 100% 100%;
+}
