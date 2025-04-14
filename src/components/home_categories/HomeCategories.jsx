@@ -36,7 +36,7 @@ const HomeCategories = () => {
 
   return (
     <CategoriesContainer>
-      {categoriedata?.map((item, index) => (
+      {Array.isArray(categoriedata) && categoriedata?.map((item, index) => (
         <CategoryItem key={index}>
           <CategoryImage src={item.pictureUrl} alt={item.title} />
           <div>{item.title}</div>

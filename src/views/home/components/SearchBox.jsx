@@ -131,7 +131,7 @@ const SearchBox = () => {
   const dispatch = useDispatch();
   const { currentCity } = useSelector(state => state.city);
   const { starttime, endtime } = useSelector(state => state.gettime);
-  const { hotSuggestData } = useSelector(state => state.hotSuggests);
+  const { hotSuggestdata } = useSelector(state => state.hotSuggests); // 修正属性名
   const startTimeText = formatMonthDay(starttime);
   const endTimeText = formatMonthDay(endtime);
 
@@ -223,7 +223,7 @@ const SearchBox = () => {
         <SearchInput type="text" placeholder="关键字/位置/民宿名" />
       </InputRow>
       <HotSuggestions>
-        {hotSuggestData?.map((item, index) => (
+        {hotSuggestdata?.map((item, index) => (
           <HotItem key={index}>{item.tagText?.text}</HotItem>
         ))}
       </HotSuggestions>

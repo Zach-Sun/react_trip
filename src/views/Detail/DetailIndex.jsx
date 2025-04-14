@@ -15,6 +15,7 @@ import DetailText from '@/components/detail/DetailText';
 import FooterLogo from '@/components/detail/FooterLogo';
 
 const DetailContainer = styled.div`
+
   background-color: #f7f8fa;
   padding-bottom: 50px; /* 避免底部内容被遮挡 */
   /* 修复 antd-mobile NavBar 固定定位问题 */
