@@ -4,39 +4,39 @@ import { Rate } from 'antd';
 import styled from 'styled-components';
 
 const CommentContainer = styled.div`
-  padding: 10px 0; /* 2.66667vw ≈ 10px */
+  padding: 10px 0;
   .header {
     display: flex;
     .left {
       display: flex;
       align-items: center;
       .score {
-        width: 65px; /* 17.33333vw ≈ 65px */
+        width: 65px;
         height: 100%;
         color: #333;
         position: relative;
         font-weight: 600;
         .text {
-          font-size: 48px; /* 12.8vw ≈ 48px */
+          font-size: 48px;
           position: relative;
           z-index: 9;
         }
         .line {
-          width: 66px; /* 17.6vw ≈ 66px */
-          height: 6px; /* 1.6vw ≈ 6px */
+          width: 66px;
+          height: 6px;
           background: linear-gradient(90deg, #fa8c1d, #fcaf3f);
-          border-radius: 3px; /* 0.8vw ≈ 3px */
+          border-radius: 3px;
           position: absolute;
-          bottom: 6px; /* 1.6vw ≈ 6px */
+          bottom: 6px;
           z-index: 5;
         }
       }
       .info {
-        margin-left: 19px; /* 5.06667vw ≈ 19px */
-        font-size: 12px; /* 3.2vw ≈ 12px */
+        margin-left: 19px;
+        font-size: 12px;
         color: #333;
         .count {
-          margin: 3px 0; /* 0.8vw ≈ 3px */
+          margin: 3px 0;
           color: #999;
         }
       }
@@ -47,7 +47,7 @@ const CommentContainer = styled.div`
       flex: 1;
       justify-content: flex-end;
       .item {
-        margin-left: 5px; /* 1.33333vw ≈ 5px */
+        margin-left: 5px;
         font-size: 12px;
         color: #666;
       }
@@ -55,31 +55,31 @@ const CommentContainer = styled.div`
   }
   .tags {
     display: flex;
-    margin: 10px 0; /* 2.66667vw ≈ 10px */
+    margin: 10px 0;
     flex-wrap: wrap;
     .item {
-      padding: 3px 5px; /* 0.8vw ≈ 3px, 1.33333vw ≈ 5px */
-      margin-right: 8px; /* 2.13333vw ≈ 8px */
-      margin-top: 5px; /* 1.33333vw ≈ 5px */
-      border-radius: 8px; /* 2.13333vw ≈ 8px */
+      padding: 3px 5px;
+      margin-right: 8px;
+      margin-top: 5px;
+      border-radius: 8px;
       font-size: 12px;
       color: #666;
       background: #f5f5f5;
     }
   }
   .export {
-    padding: 10px; /* 2.66667vw ≈ 10px */
-    border-radius: 6px; /* 1.6vw ≈ 6px */
+    padding: 10px;
+    border-radius: 6px;
     background-color: #f7f9fb;
     .user {
       display: flex;
       .touxiang img {
-        width: 32px; /* 8.53333vw ≈ 32px */
+        width: 32px;
         height: 32px;
         border-radius: 50%;
       }
       .infos {
-        margin-left: 8px; /* 2.13333vw ≈ 8px */
+        margin-left: 8px;
         .date {
           margin-top: 3px;
           font-size: 12px;
@@ -89,7 +89,7 @@ const CommentContainer = styled.div`
     }
     .text {
       font-size: 12px;
-      line-height: 16px; /* 4.26667vw ≈ 16px */
+      line-height: 16px;
       color: #333;
       margin-top: 16px;
     }

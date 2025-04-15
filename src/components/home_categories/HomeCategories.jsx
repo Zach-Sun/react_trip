@@ -5,7 +5,7 @@ import { fetchCategories } from '@/store/modules/categories';
 
 const CategoriesContainer = styled.div`
   display: flex;
-  margin-top: 70px;
+  margin-top: 10px;
   overflow-x: auto;
   padding: 10px 0;
 `;

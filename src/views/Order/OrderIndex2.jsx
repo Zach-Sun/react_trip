@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import styled from 'styled-components';
-import AllOrder from '../../components/order/AllOrder';
+import NotOrder from '../../components/order/NotOrder';
 
 const ShoppingCarContainer = styled.div`
   width: 100%;
@@ -48,7 +48,7 @@ const TabLink = styled(NavLink)`
   }
 `;
 
-const OrderIndex = () => {
+const OrderIndex2 = () => {
   return (
     <ShoppingCarContainer>
       <TitleHeader>
@@ -56,15 +56,15 @@ const OrderIndex = () => {
       </TitleHeader>
       <BodyContainer>
         <TabBar>
-          <TabLink style={{backgroundColor:"#ff9854"}} to="/order/allorder">全部订单</TabLink>
+          <TabLink to="/order/allorder">全部订单</TabLink>
           <TabLink to="/order/notorder">待付款</TabLink>
         </TabBar>
         <div className="main">
-          <AllOrder />
+          <NotOrder />
         </div>
       </BodyContainer>
     </ShoppingCarContainer>
   );
 };
 
-export default OrderIndex;
+export default OrderIndex2;

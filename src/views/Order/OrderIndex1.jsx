@@ -48,7 +48,7 @@ const TabLink = styled(NavLink)`
   }
 `;
 
-const OrderIndex = () => {
+const OrderIndex1 = () => {
   return (
     <ShoppingCarContainer>
       <TitleHeader>
@@ -56,7 +56,7 @@ const OrderIndex = () => {
       </TitleHeader>
       <BodyContainer>
         <TabBar>
-          <TabLink style={{backgroundColor:"#ff9854"}} to="/order/allorder">全部订单</TabLink>
+          <TabLink to="/order/allorder">全部订单</TabLink>
           <TabLink to="/order/notorder">待付款</TabLink>
         </TabBar>
         <div className="main">
@@ -67,4 +67,4 @@ const OrderIndex = () => {
   );
 };
 
-export default OrderIndex;
+export default OrderIndex1;

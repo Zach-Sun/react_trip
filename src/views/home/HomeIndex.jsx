@@ -38,7 +38,6 @@ const useScrollHandler = (fetchMoreData) => {
   useEffect(() => {
     const handleScroll = throttle((e) => {
       const { scrollTop, offsetHeight, scrollHeight } = e.target;
-      // 触底加载更多
       if (scrollTop + offsetHeight + 1 >= scrollHeight) {
         fetchMoreData();
       }

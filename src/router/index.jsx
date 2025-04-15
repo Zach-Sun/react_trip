@@ -14,7 +14,7 @@ import SearchIndex from '@/views/Search/SearchIndex';
 import DetailIndex from '@/views/Detail/DetailIndex';
 import LoginIndex from '@/views/Login/LoginIndex';
 
-// 创建路由守卫高阶组件
+// 路由守卫
 const withAuth = (Component) => {
   return () => {
     const account = localStorage.getItem('account');

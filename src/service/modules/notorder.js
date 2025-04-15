@@ -1,4 +1,3 @@
-// src/service/modules/notorder.js
 import myaxios from "../request/myaxios";
 
 export default function getNotOrder() {

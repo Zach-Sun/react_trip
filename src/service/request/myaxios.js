@@ -1,7 +1,7 @@
 import axios from "axios";
 import { baseURL, TIMEOUT } from "./config";
 import { store } from "@/store";
-import { setLoading } from "@/store/modules/loading"; // 添加 action 引入
+import { setLoading } from "@/store/modules/loading";
 
 class MyAxios {
   constructor(baseURL) {
@@ -10,7 +10,6 @@ class MyAxios {
       timeout: TIMEOUT,
     });
 
-    // 请求拦截器
     this.instance.interceptors.request.use(
       (config) => {
         store.dispatch(setLoading(true)); // 触发加载状态
@@ -22,7 +21,6 @@ class MyAxios {
       }
     );
 
-    // 响应拦截器
     this.instance.interceptors.response.use(
       (res) => {
         store.dispatch(setLoading(false));

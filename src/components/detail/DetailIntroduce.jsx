@@ -3,7 +3,6 @@ import DetailSlot from './DetailSlot';
 import styled from 'styled-components';
 import { Button } from 'antd';
 
-// 使用 styled-components 实现样式
 const IntroContainer = styled.div`
   .top img {
     width: 100%;
@@ -13,35 +12,35 @@ const IntroContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px; /* 2.66667vw ≈ 10px */
+    margin-top: 10px;
     .left {
       display: flex;
       .info {
         .name {
-          margin-top: 8px; /* 2.13333vw ≈ 8px */
-          font-size: 16px; /* 4.26667vw ≈ 16px */
+          margin-top: 8px;
+          font-size: 16px;
           font-weight: 600;
         }
         .tags {
           display: flex;
-          margin-top: 5px; /* 1.33333vw ≈ 5px */
-          font-size: 12px; /* 3.2vw ≈ 12px */
+          margin-top: 5px;
+          font-size: 12px;
           .diver {
-            margin: 0 5px; /* 1.33333vw ≈ 5px */
+            margin: 0 5px;
           }
         }
       }
       img {
-        width: 54px; /* 14.4vw ≈ 54px */
-        height: 54px; /* 14.4vw ≈ 54px */
+        width: 54px;
+        height: 54px;
       }
     }
     .right {
       .contact-btn {
-        height: 24px; /* 6.4vw ≈ 24px */
+        height: 24px;
         line-height: 24px;
-        border-radius: 5px; /* 1.33333vw ≈ 5px */
-        padding: 0 12px; /* 3.2vw ≈ 12px */
+        border-radius: 5px;
+        padding: 0 12px;
         font-size: 12px;
         border: none;
         background: linear-gradient(90deg, #fa8c1d, #fcaf3f);

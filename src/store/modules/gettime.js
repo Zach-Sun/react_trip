@@ -1,4 +1,3 @@
-// src/store/modules/gettime.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const startTime = new Date();

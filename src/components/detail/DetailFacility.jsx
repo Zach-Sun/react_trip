@@ -35,7 +35,7 @@ const HouseRoomContainer = styled.div`
         margin: 4px 0;
         .icon {
           margin: 0 6px;
-          color: #07c160; /* 绿色对勾颜色 */
+          color: #07c160;
           &::before {
             content: "✓";
           }

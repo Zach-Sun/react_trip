@@ -35,7 +35,6 @@ const DetailPosition = ({ positiondata = {} }) => {
       initMap();
     } else {
       console.error('百度地图API未加载');
-      // 可以在这里添加API加载重试逻辑
     }
     // 清理函数
     return () => {

@@ -5,10 +5,10 @@ import styled from 'styled-components';
 const KnownContent = styled.div`
   .item {
     display: flex;
-    margin: 10px 0 20px;  /* 转换vw单位：2.66667vw≈10px, 5.33333vw≈20px */
-    font-size: 12px;      /* 3.2vw≈12px */
+    margin: 10px 0 20px;
+    font-size: 12px;
     .title {
-      width: 64px;        /* 17.06667vw≈64px */
+      width: 64px;
       color: #666;
     }
     .intro {

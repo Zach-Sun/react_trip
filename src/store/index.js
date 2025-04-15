@@ -1,4 +1,3 @@
-// @/store/index.js
 import { configureStore } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
 import allOrderReducer, { fetchAllOrder } from './modules/allorder';

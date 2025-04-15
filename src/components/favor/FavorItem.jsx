@@ -4,7 +4,7 @@ import { Rate } from 'antd';
 
 const FavorItemContainer = styled.div`
   width: 100%;
-  height: 667px;
+  height: 1000x;
   overflow-y: auto;
   padding-bottom: 50px;
 `;

@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import SearchTabbar from '@/components/tabbar/SearchTabbar';
 import SearchResult from '@/components/search/SearchResult';
 import SearchItem from '@/components/search/SearchItem';
+import Favors from '../../components/favor/Favors';
 
 const SearchContainer = styled.div`
   &.tabbarhidden {
@@ -67,8 +68,7 @@ const SearchIndex = () => {
         <MoreText>更多</MoreText>
       </TopBar>
       <MainContent>
-        <SearchResult itemdata={searchdata?.data?.hotFilters} />
-        <SearchItem itemdata={searchdata?.data?.items} />
+        <Favors />
       </MainContent>
     </SearchContainer>
   );

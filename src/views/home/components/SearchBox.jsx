@@ -129,9 +129,9 @@ const SearchBox = () => {
   const [stayCount, setStayCount] = useState(1);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { currentCity } = useSelector(state => state.city);
+  const { currentcity } = useSelector(state => state.city);
   const { starttime, endtime } = useSelector(state => state.gettime);
-  const { hotSuggestdata } = useSelector(state => state.hotSuggests); // 修正属性名
+  const { hotSuggestdata } = useSelector(state => state.hotSuggests);
   const startTimeText = formatMonthDay(starttime);
   const endTimeText = formatMonthDay(endtime);
 
@@ -190,7 +190,7 @@ const SearchBox = () => {
     <SearchContainer>
       <PositionRow>
         <CityText onClick={handleCityClick}>
-          {currentCity?.cityName || '选择城市'}
+          {currentcity?.cityName || '选择城市'}
         </CityText>
         <LocationButton onClick={handlePositionClick}>
           我的位置

@@ -8,7 +8,7 @@ import store from '@/store';
 import 'normalize.css';
 import '@/assets/css/index.css';
 
-// 百度地图脚本动态加载
+// 动态加载百度地图
 const loadBaiduMap = () => {
   const script = document.createElement('script');
   script.src = 'https://api.map.baidu.com/getscript?v=3.0&&type=webgl&ak=cVUYlyAZOX43yKC4GNEHqPuwnPpGgovf';
@@ -28,5 +28,4 @@ root.render(
   </React.StrictMode>
 );
 
-// 加载百度地图
 loadBaiduMap();

@@ -61,7 +61,7 @@ const RightBody = styled.div`
 
 const ItemOrder = ({ itemdata = {} }) => {
   const [payAmount, setPayAmount] = useState(itemdata.prepayAmount || 0);
-  const status = itemdata.orderStatus;
+  const [status, setStatus] = useState(itemdata.orderStatus || 0);
   // 时间格式化
   const formattedTime = useMemo(() => {
     const minutes = Math.floor(payAmount / 60);
@@ -82,6 +82,7 @@ const ItemOrder = ({ itemdata = {} }) => {
 
   const handleCancel = () => {
     setPayAmount(0);
+    setStatus(0);
   };
 
   return (

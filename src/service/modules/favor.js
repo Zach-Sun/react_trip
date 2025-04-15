@@ -1,4 +1,3 @@
-// src/service/modules/favor.js
 import myaxios from "../request/myaxios";
 
 export default function getFavorData() {

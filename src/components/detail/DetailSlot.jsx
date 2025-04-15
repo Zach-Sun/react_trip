@@ -2,7 +2,6 @@ import React from 'react';
 import { ArrowRightOutlined } from '@ant-design/icons';
 import styled from 'styled-components';
 
-// 使用 styled-components 合并样式
 const SectionContainer = styled.div`
   padding: 0 15px;
   margin-top: 12px;

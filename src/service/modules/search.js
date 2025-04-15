@@ -1,4 +1,3 @@
-// src/service/modules/search.js
 import myaxios from "../request/myaxios";
 
 export default function getSearch() {

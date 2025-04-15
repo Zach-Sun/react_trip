@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import styled from 'styled-components';
+import Favors from '../../components/favor/Favors';
 
 const FavorContainer = styled.div`
   width: 100%;
@@ -62,7 +63,7 @@ const FavorIndex = () => {
       </TabHeader>
       {/* 内容区域 */}
       <MainContent>
-        <Outlet />
+        <Favors />
       </MainContent>
     </FavorContainer>
   );

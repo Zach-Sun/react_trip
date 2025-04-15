@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import DetailBanner from '@/components/detail/DetailBanner';
 import HouseInfos from '@/components/detail/HouseInfos';
 import DetailFacility from '@/components/detail/DetailFacility';
-import DetailIntroduce from '@/components/detail/DetailIntroduce'; // 修正导入名称
+import DetailIntroduce from '@/components/detail/DetailIntroduce';
 import DetailHotExport from '@/components/detail/DetailHotExport';
 import DetailKnown from '@/components/detail/DetailKnown';
 import DetailPosition from '@/components/detail/DetailPosition';
@@ -15,7 +15,6 @@ import DetailText from '@/components/detail/DetailText';
 import FooterLogo from '@/components/detail/FooterLogo';
 
 const DetailContainer = styled.div`
-
   background-color: #f7f8fa;
   padding-bottom: 50px; /* 避免底部内容被遮挡 */
   /* 修复 antd-mobile NavBar 固定定位问题 */
@@ -39,8 +38,8 @@ const ContentSection = styled.section`
 `;
 
 const StyledNavBar = styled(NavBar)`
-  --height: 44px;
-  --border-bottom: none;
+  height: 44px;
+  border-bottom: none;
   .adm-nav-bar-title {
     font-weight: 600;
     color: #333;

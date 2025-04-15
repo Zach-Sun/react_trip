@@ -1,19 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '@/assets/img/detail/logo.png'; // 确保路径正确
+import logo from '@/assets/img/detail/logo.png';
 
 const FooterContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 120px; /* 32vw ≈ 120px (基于375px设计稿) */
+  height: 120px;
   img {
-    width: 123px; /* 32.8vw ≈ 123px */
+    width: 123px;
   }
   .text {
-    margin-top: 12px; /* 3.2vw ≈ 12px */
-    font-size: 12px; /* 3.2vw ≈ 12px */
+    margin-top: 12px;
+    font-size: 12px;
     color: #7688a7;
   }
 `;
